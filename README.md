@@ -4,7 +4,7 @@ CLI tool to run eslint against target branch
 
 ## Usage
 
-```sh
+```bash
 lint-diff-branch TARGET_BRANCH_NAME # default to master or main
 ```
 

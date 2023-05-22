@@ -1,44 +1,48 @@
 {
-	"name": "lint-diff-branch",
-	"version": "0.1.10",
-	"description": "",
-	"keywords": [],
-	"repository": "github:yidingww/lint-diff-branch",
-	"license": "ISC",
-	"author": "yiding.wang",
-	"type": "module",
-	"main": "index.js",
-	"bin": {
-		"lint-diff-branch": "./src/index.js"
-	},
-	"scripts": {
-		"prepare": "husky install",
-		"test": "exit 0"
-	},
-	"lint-staged": {
-		"*.js": "rome format",
-		"**/package.json": "sort-package-json"
-	},
-	"dependencies": {
-		"chalk": "^5.2.0",
-		"citty": "^0.1.1",
-		"consola": "^3.1.0",
-		"shelljs": "^0.8.5"
-	},
-	"devDependencies": {
-		"husky": "^8.0.0",
-		"lint-staged": "^13.2.2",
-		"rome": "12.1.0",
-		"sort-package-json": "^2.4.1"
-	},
-	"peerDependencies": {
-		"eslint": "^8"
-	},
-	"packageManager": "pnpm@8.5.1",
-	"engines": {
-		"node": ">=14"
-	},
-	"publishConfig": {
-		"registry": "https://registry.npmjs.org"
-	}
+  "name": "lint-diff-branch",
+  "version": "0.1.10",
+  "description": "A tiny CLI tool that help you run eslint against target branch",
+  "keywords": [
+    "eslint",
+    "lint",
+    "cli"
+  ],
+  "repository": "github:yidingww/lint-diff-branch",
+  "license": "MIT",
+  "author": "yiding.wang",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "lint-diff-branch": "./src/index.js"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "test": "exit 0"
+  },
+  "lint-staged": {
+    "*.js": "rome format",
+    "**/package.json": "sort-package-json"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "citty": "^0.1.1",
+    "consola": "^3.1.0",
+    "shelljs": "^0.8.5"
+  },
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "lint-staged": "^13.2.2",
+    "rome": "12.1.0",
+    "sort-package-json": "^2.4.1"
+  },
+  "peerDependencies": {
+    "eslint": "^8"
+  },
+  "packageManager": "pnpm@8.5.1",
+  "engines": {
+    "node": ">=14"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
 }
