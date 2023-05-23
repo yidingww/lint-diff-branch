@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import chalk from 'chalk'
 import { defineCommand, runMain } from 'citty'
 import { consola } from 'consola'
@@ -6,7 +7,7 @@ import shell from 'shelljs'
 const main = defineCommand({
   meta: {
     name: 'lint-diff-branch',
-    version: '0.1.10',
+    version: '0.1.11',
     description: 'Run ESLint on changed JS/TS files against a target branch',
   },
   args: {

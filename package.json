@@ -1,6 +1,6 @@
 {
   "name": "lint-diff-branch",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "A tiny CLI tool that help you run eslint against target branch",
   "keywords": [
     "eslint",
