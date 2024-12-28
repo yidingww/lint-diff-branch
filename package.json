@@ -1,7 +1,7 @@
 {
   "name": "lint-diff-branch",
   "type": "module",
-  "version": "0.1.11",
+  "version": "0.2.0",
   "packageManager": "pnpm@9.15.1",
   "description": "A tiny CLI tool that help you run eslint against target branch",
   "author": "yidingww",
